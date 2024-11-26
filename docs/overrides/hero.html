@@ -1,0 +1,22 @@
+{% extends "main.html" %}
+{% block hero %}
+    <section class="mdx-container">
+        <div class="md-grid md-typeset">
+        <div class="mdx-hero">
+            <div class="mdx-hero__image">
+            <img src="{{ page.meta.hero_image }}" alt="" draggable="false">
+            </div>
+            <div class="mdx-hero__content">
+            <h1>Vacanza con Rufus!</h1>
+            <p>{{ config.site_description }}.</p>
+            <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
+                Unisciti al gruppo!
+            </a>
+            <a href="{{ 'info/emergency' | url }}" title="Emergenze" class="md-button">
+                Emergenze
+            </a>
+            </div>
+        </div>
+        </div>
+    </section>
+{% endblock %}

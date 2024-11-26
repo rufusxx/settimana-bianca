@@ -1,0 +1,48 @@
+name: 🛠️ Deploy site
+
+on:
+  push:
+    branches:
+      - main
+
+# Makes sure only one workflow runs at a time.
+concurrency:
+  group: 'pages'
+  cancel-in-progress: false
+
+jobs:
+  build_deploy:
+    name: 🚚 Build and deploy 📗
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: http://rufusxx.github.io/settimana-bianca
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set Git config
+        run: |
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11.7'
+          cache: 'pip'
+      - name: Install requirements
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e "."
+      - name: Build site
+        run: mkdocs build
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'site'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
