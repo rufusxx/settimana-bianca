@@ -5,6 +5,10 @@ on:
     branches:
       - main
 
+permissions:
+  id-token: write
+  pages: write
+
 # Makes sure only one workflow runs at a time.
 concurrency:
   group: 'pages'
