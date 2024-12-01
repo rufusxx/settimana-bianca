@@ -1,10 +1,10 @@
 # MAIN DATA -------------------------------------------------------------------
 # Site data
-site_name: Settimana Bianca
+site_name: Settimana Bianca 2k25
 site_url: "http://rufusxx.github.io/settimana-bianca/"
-site_author: Ruggero Alberti
+site_author: rufusxx
 site_description: >-
-  La vacanza sulla neve che non ti immaginavi
+  La vacanza sulla neve che non ti immagini!
 
 # Repository
 repo_name: rufusxx/settimana-bianca
@@ -13,12 +13,9 @@ edit_uri: ""
 
 # Navigation bar
 nav:
-- Benvenuto: index.md
-- Informazioni:
-  - info/index.md # Pagina di sezione
-  - Contatti: info/contacts.md
-  - Emergenze: info/emergency.md
-- Saluti: goodbye.md
+- Benvenuto!: generale.md
+- Informazioni: info/info.md
+- Contatti: contatti.md
 
 # THEME -----------------------------------------------------------------------
 # Theme
@@ -44,7 +41,7 @@ extra_css:
 # Plugins
 plugins:
 - gh-admonitions
-- search
+#- search
 - autorefs
 - section-index
 
