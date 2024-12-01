@@ -1,3 +1,11 @@
-# :simple-whatsapp: Entra nel gruppo Whatsapp!
+---
+hide:
+  - navigation
+  - toc
+---
 
-Link: [Settimana bianca 2k25](https://rfsxx.com/2k25SB-chat)
+## :simple-whatsapp: Entra nel gruppo WhatsApp!
+
+Link: [Settimana bianca 2k25][1]
+
+[1]: https://rfsxx.com/2k25SB-chat "gruppo WhatsApp"

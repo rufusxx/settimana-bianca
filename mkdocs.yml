@@ -4,7 +4,7 @@ site_name: Settimana Bianca 2k25
 site_url: "http://rufusxx.github.io/settimana-bianca/"
 site_author: rufusxx
 site_description: >-
-  La vacanza sulla neve che non ti immagini!
+  La vacanza sulla neve che non ti immagini
 
 # Repository
 repo_name: rufusxx/settimana-bianca
@@ -13,7 +13,7 @@ edit_uri: ""
 
 # Navigation bar
 nav:
-- Benvenuto!: index.md
+- Benvenuto: index.md
 - Informazioni: info.md
 - Contatti: contatti.md
 
@@ -41,7 +41,7 @@ extra_css:
 # Plugins
 plugins:
 - gh-admonitions
-#- search
+- search
 - autorefs
 - section-index
 
