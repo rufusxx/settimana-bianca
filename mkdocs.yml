@@ -13,8 +13,8 @@ edit_uri: ""
 
 # Navigation bar
 nav:
-- Benvenuto!: generale.md
-- Informazioni: info/info.md
+- Benvenuto!: index.md
+- Informazioni: info.md
 - Contatti: contatti.md
 
 # THEME -----------------------------------------------------------------------
