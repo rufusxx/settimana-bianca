@@ -3,25 +3,27 @@ hide:
   - navigation
 ---
 
-## Periodo
+## :material-calendar-check: Periodo
 
 Dal 25 gennaio al 1° febbraio 2025 (da sabato a sabato).
-Prenotati!  
-Segna i giorni in cui sarai presente sulla [pagina dedicata][1].
+
+!!! danger "Prenotati!"
+
+    Segna i giorni in cui sarai presente sulla [pagina dedicata][1].
 
 
-## Alloggio
+## :material-home-heart: Alloggio
 
 L’appartamento in cui alloggeremo può ospitare fino a 6 persone e si trova presso Cesa S. Cristoforo (al 2° piano con ascensore), sopra il supermercato Despar.  
-L’indirizzo
-
-Strada Dolomites, 69  
-38032 Canazei TN  
-[Posizione su Google Maps][2]
-
 Qualche foto dell’appartamento si può vedere sul sito del proprietario [qui][3].
 
-## Prezzi
+!!! info "Indirizzo"
+
+    Strada Dolomites, 69  
+    38032 Canazei TN  
+    [Posizione su Google Maps][2]
+
+## :fontawesome-solid-money-bill-wave: Prezzi
 
 ### Alloggio
 

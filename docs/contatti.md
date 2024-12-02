@@ -4,8 +4,9 @@ hide:
   - toc
 ---
 
-## :simple-whatsapp: Entra nel gruppo WhatsApp!
+## :material-run-fast: Entra nel gruppo WhatsApp!
+Fai clic sul pulsante per iscriverti al gruppo Whatsapp.
 
-Link: [Settimana bianca 2k25][1]
+[:simple-whatsapp: Settimana bianca 2k25][1]{ .md-button }
 
 [1]: https://rfsxx.com/2k25SB-chat "gruppo WhatsApp"
