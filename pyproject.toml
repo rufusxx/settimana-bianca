@@ -4,7 +4,7 @@ version = "0.0.0"
 authors = [
   { name="Ruggero Aberti", email="ruggero@example.com" },
 ]
-description = "The ultimate web app for a well organized lunch."
+description = "website dependencies for rufusxx's skiing holiday"
 readme = "README.md"
 requires-python = ">=3.11"
 keywords = ["website", "static", "mkdocs", "material"]
