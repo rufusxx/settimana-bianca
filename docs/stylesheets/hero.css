@@ -1,63 +1,47 @@
 /* Define hero container, contents and image classes
 Define also some classes for buttons */
 
+/* Main container */
 .mdx-container{
-    background: linear-gradient(to bottom,var(--md-primary-fg-color),var(--md-primary-fg-color--dark) 99%,var(--md-default-bg-color) 99%);
-    padding-top: 1rem;
+    transform: translate(0, -4.8rem);
 }
 
-[data-md-color-scheme=slate] .mdx-container{
-    background: linear-gradient(to bottom,var(--md-primary-fg-color),var(--md-primary-fg-color--dark) 99%,var(--md-default-bg-color) 99%);
-}
+/* The hero image */
+.mdx-hero {
+    /* Use "linear-gradient" to add a darken background effect to the image.
+    This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/images/winter_landscape.jpg");
 
-.mdx-hero{
-    color: var(--md-primary-bg-color);
-    margin: 0 .8rem;
+    /* Set a specific height */
+    height: 100vh;
+    width: 100vw;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .mdx-hero h1{
     color: currentcolor;
     font-weight: 700;
     margin-bottom: 1rem;
+    margin-top: 3rem;
 }
 
-@media screen and (max-width:29.984375em){
-    .mdx-hero h1{
-        font-size: 1.4rem;
-    }
-}
-
-.mdx-hero__content{
-    padding-bottom: 3rem;
-}
-
-.mdx-hero__image{
+/* Place text in the middle of the image */
+.mdx-hero__content {
     text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
 
-.mdx-hero__image img{
-    width: 100%;
-    max-width:  35rem;
-}
-
-@media screen and (min-width:70em){
-    .mdx-hero{
-        align-items: stretch;
-        display: flex;
-        justify-content: space-between;
-    }
-    .mdx-hero__content{
-        margin-top: 3.5rem;
-        max-width: 19rem;
-        padding-bottom: 10vw;
-    }
-    .mdx-hero__image{
-        order: 1;
-        transform: translateX(8vw);
-    }
-}
-
-.mdx-hero .md-button{
+/* Buttons */
+.mdx-hero__content .md-button{
     color:var(--md-primary-fg-color--light);
     margin-right: .5rem;
     margin-top: .5rem;
@@ -67,10 +51,15 @@ Define also some classes for buttons */
     background-color: var(--md-accent-fg-color);
     border-color: var(--md-accent-fg-color);
     color: var(--md-accent-bg-color);
+    background-image: none;
 }
 
-.mdx-hero .md-button--primary{
+.mdx-hero__content .md-button--primary{
     background-color: var(--md-primary-bg-color);
     border-color: var(--md-primary-bg-color);
     color: var(--md-primary-fg-color);
+}
+
+.mdx-hero__content .md-button--dark{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
 }

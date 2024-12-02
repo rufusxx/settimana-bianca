@@ -1,22 +1,19 @@
 {% extends "main.html" %}
 {% block hero %}
     <section class="mdx-container">
-        <div class="md-grid md-typeset">
-        <div class="mdx-hero">
-            <div class="mdx-hero__image">
-            <img src="{{ page.meta.hero_image }}" alt="" draggable="false">
+        <div class="md-typeset">
+            <div class="mdx-hero">
+                <div class="mdx-hero__content">
+                    <h1>Prenota i tuoi giorni!</h1>
+                    <p>{{ config.site_description }}</p>
+                    <a href="https://rfsxx.com/2k25SB-presenze" title="calendario presenze" class="md-button md-button--primary">
+                        Prenotati!
+                    </a>
+                    <a href="https://rfsxx.com/2k25SB-chat" title="gruppo WhatsApp" class="md-button md-button--dark">
+                        Entra nel gruppo Whatsapp!
+                    </a>
+                </div>
             </div>
-            <div class="mdx-hero__content">
-            <h1>Prenota i tuoi giorni!</h1>
-            <p>{{ config.site_description }}.</p>
-            <a href="https://rfsxx.com/2k25SB-presenze" title="calendario presenze" class="md-button md-button--primary">
-                Prenotati!
-            </a>
-            <a href="https://rfsxx.com/2k25SB-chat" title="gruppo WhatsApp" class="md-button">
-                Entra nel gruppo WhatsApp!
-            </a>
-            </div>
-        </div>
         </div>
     </section>
 {% endblock %}
