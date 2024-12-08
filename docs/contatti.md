@@ -5,7 +5,7 @@ hide:
 ---
 
 ## :material-run-fast: Entra nel gruppo WhatsApp!
-Fai clic sul pulsante per iscriverti al gruppo Whatsapp.
+Fai clic sul pulsante per iscriverti al gruppo WhatsApp.
 
 [:simple-whatsapp: Settimana bianca 2k25][1]{ .md-button }
 
