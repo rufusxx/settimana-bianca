@@ -61,5 +61,5 @@ Define also some classes for buttons */
 }
 
 .mdx-hero__content .md-button--dark{
-    background-image: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.7);
 }
